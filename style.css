@@ -71,6 +71,7 @@ h1{
     font-size: 3rem;
     font-family: ui-monospace;
     text-align: center; 
+    position: relative;
 }
 /* ******************header ends******************** */
 
@@ -134,6 +135,7 @@ h1{
         padding-top: 10px;
         padding-bottom: 10px;
         text-align: center;
+        position: relative;
     }
 
     .footer1 {
