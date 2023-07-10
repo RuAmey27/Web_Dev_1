@@ -1,0 +1,238 @@
+.box {
+    height: 260px;
+    width: 100%;
+    /* box-shadow: 10px 10px 10px black; */
+    background-color: rgba(255, 77, 0, 1);
+    /* border-radius: 12px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+.box1 {
+    height: 220px;
+    width: 30%;
+    /* background-color: blueviolet; */
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: myAnim 1s ease-in-out 0s 1 normal forwards;
+}
+
+.box2 {
+    height: 220px;
+    width: 60%;
+    position: relative;
+    margin-left: 10%;
+    background-color: #47f976;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px;
+    overflow-y: auto;
+    display: flex;
+    content: flex-wrap;
+    animation: myAnim1 1s ease-in-out 0s 1 normal forwards;
+}
+.box1 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+h1{
+    animation: heading 1s ease-in-out 0s 1 normal forwards;
+}
+/* ********************footer starts******************* */
+.footer1 {
+    height: 60px;
+    background-image: linear-gradient(118deg, rgba(255, 77, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(8, 120, 0, 1) 100%);
+    /* border-radius: 12px; */
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+/* *******************footer ends******************* */
+/* *******************header starts***************** */
+.header1 {
+    height: 60px;
+    background-image: linear-gradient(118deg, rgba(255, 77, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(8, 120, 0, 1) 100%);
+    /* border-radius: 12px; */
+    /* margin-bottom: 10%; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: ui-monospace;
+    text-align: center; 
+}
+/* ******************header ends******************** */
+
+/* responsive styling for screen having width less than 768 px */
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: linear-gradient(118deg, rgba(255, 77, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(8, 120, 0, 1) 100%);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box {
+        height: 260px;
+        width: 100%;
+        box-shadow: 10px 10px 10px black;
+        background-image: linear-gradient(118deg, rgba(255, 77, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(8, 120, 0, 1) 100%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: contents;
+    }
+
+    .box1 {
+        height: 250px;
+        width: auto;
+        background-color: #47f976;
+        /* border-radius: 12px; */
+        box-shadow: 6px 6px 6px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        animation: myAnim 1s ease 0s 1 normal forwards;
+        /* border-radius: 80px 5px 80px 5px; */
+    }
+
+    .box2 {
+        height: 250px;
+        width: auto;
+        position: relative;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        background-color: #47f976;
+        /* border-radius: 12px; */
+        box-shadow: 6px 6px 6px;
+        overflow-y: auto;
+        animation: myAnim1 1s ease 0s 1 normal forwards;
+        /* border-radius: 80px 5px 80px 5px; */
+    }
+
+    .header1 {
+        height: 100px;
+        background-image: linear-gradient(118deg, rgba(255, 77, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(8, 120, 0, 1) 100%);
+        /* border-radius: 12px; */
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .footer1 {
+        height: 60px;
+        background-image: linear-gradient(118deg, rgba(255, 77, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(8, 120, 0, 1) 100%);
+        /* border-radius: 12px; */
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.heading{
+    animation: myAnim 2s ease-in-out 0s 1 normal forwards;
+}
+/**************** animations begins here ********************/
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes myAnim1 {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes heading {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+/**************** animations ends here ********************/

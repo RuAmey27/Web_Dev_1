@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head contents are here -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <style>
+        /* internal styles are given here */
+        .aubox{
+            height: 60px;
+            width: 60%;
+            position: relative;
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: #47f976;
+            border-radius: 12px;
+            box-shadow: 6px 6px 6px;
+            padding-left: 15%;
+            padding-right: 15%;
+            /* overflow-y: auto; */
+            display: flex;
+            content: flex-wrap;
+            animation: myAnim1 1s ease-in-out 0s 1 normal forwards;
+        }
+        #au{
+            height: 100px;
+            width: 100%;
+            box-shadow: 10px 10px 10px black;
+            background-color: rgba(255, 77, 0, 1);
+            /* border-radius: 12px; */
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            display: flex;
+        }
+        @media only screen and (max-width: 768px){
+           .aubox {
+                height: 60px;
+                width: auto;
+                background-color: #47f976;
+                /* border-radius: 12px; */
+                box-shadow: 6px 6px 6px;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 5%;
+                align-items: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 15%;
+                padding-right: 15%;
+                animation: myAnim 1s ease 0s 1 normal forwards;
+            }
+            #au{
+                height: 80px;
+                width: 100%;
+                box-shadow: 10px 10px 10px black;
+                background-image: linear-gradient(118deg, rgba(255, 77, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(8, 120, 0, 1) 100%);
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 5%;
+                padding-right: 5%;
+                display: contents;
+            }
+        }
+        /* internal styles are ending here  */
+    </style>
+</head>
+<!-- head content ends here -->
+<!-- body of page starts here -->
+<body>
+    <!-- header starts  -->
+    <header class="header1">
+        <h1>Indian Space Research Centers</h1>
+        <!-- animation is given to h1 -->
+    </header>
+    <!-- header end  -->
+    <div class="parent">
+<!-- div parent starts here -->
+        <div class="box">
+            <!-- box div useful for display in desktop mode only  display is flex in when screen size is more than 768 px and display is contents when screen size is less-->
+            <div class="box1" style="background-image: url(./Images/937771-vikram-sarabhai-space-centre.webp);">
+            </div>
+            <div class="box2">
+                <ul>
+                    <h5>
+                        <li class="heading">Vikram Sarabhai Space Centre</li>
+                    </h5>
+                    <li>
+                        <p style="text-align: justify;">
+                        <p>The Vikram Sarabhai Space Centre (VSSC) is a major space research centre of the Indian Space
+                            Research Organisation (ISRO),</p>
+                        <p>focusing on rocket and space vehicles for India's satellite programme.It is located in
+                            Thiruvananthapuram, in the Indian state of Kerala.</p>
+                        <p>The centre had its beginnings as the Thumba Equatorial Rocket Launching Station (TERLS) in
+                            1962.</p>
+                        <p>It was renamed in honour of Vikram Sarabhai, often regarded as the father of the Indian space
+                            program.</p>
+                        <p>H.G.S. Murthy was appointed as the first director of Thumba Equatorial Rocket Launching
+                            Station.</p>
+                        <p>The Vikram Sarabhai Space Centre is one of the main research and development establishments
+                            within ISRO.</p>
+                        <p>VSSC is an entirely indigenous facility working on the development of sounding rockets, the
+                            Rohini and Menaka launchers, and SLV, ASLV, PSLV, GSLV and GSLV Mk III families of launch
+                            vehicles.</p>
+                        <p><a href="https://en.wikipedia.org/wiki/Vikram_Sarabhai_Space_Centre">Read More...</a></p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Div box is ending below  -->
+        </div>
+        <div class="box">
+            <div class="box1" style="background-image: url(./Images/LiquidPropulsionSystemsCentre.jpg);">
+            </div>
+            <div class="box2">
+                <ul>
+                    <h5>
+                        <li class="heading">Liquid Propulsion Systems Centre</li>
+                    </h5>
+                    <li>
+                        <p style="text-align: justify;">
+                        <p>The Liquid Propulsion Systems Centre (LPSC) is a research and development centre functioning
+                            under Indian Space Research Organisation (ISRO).</p>
+                        <p> It has two units located at Valiamala, in Thiruvananthapuram of Kerala, and Bengaluru of
+                            Karnataka. LPSC is augmented by ISRO Propulsion Complex at Mahendragiri of Tamil Nadu.</p>
+                        <p>LPSC is engaged in development of liquid and cryogenic propulsion stages for launch vehicles
+                            and auxiliary propulsion systems for both launch vehicles and satellites.</p>
+                        <p>Activities related to liquid propulsion stages, cryogenic propulsion stages and control
+                            systems for launch vehicles and spacecraft is done at Thiruvananthapuram.</p>
+                        <p> Precision fabrication facilities, development of transducers and integration of satellite
+                            propulsion systems are carried out at Bangalore. </p>
+                        <p>The developmental and flight tests along with assembly and integration are done at ISRO
+                            Propulsion Complex, Mahendragiri in Tamil Nadu.</p>
+                        <p>LPSC's current director is Dr. V Narayanan. He succeeded Mr. S Somnath in January, 2018 after
+                            which Shri S Somnath was appointed as Director of VSSC.</p>
+                        <p><a href="https://en.wikipedia.org/wiki/Liquid_Propulsion_Systems_Centre">Read More...</a></p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1" style="background-image: url(./Images/physicalrelab.jpg);">
+            </div>
+            <div class="box2">
+                <ul>
+                    <h5>
+                        <li class="heading">Physical Research Laboratory</li>
+                    </h5>
+                    <li>
+                        <p style="text-align: justify;">
+                        <p>The Physical Research Laboratory is a National Research Institute for space and allied
+                            sciences, supported mainly by Department of Space, Government of India. </p>
+                        <p>This research laboratory has ongoing research programmes in astronomy and astrophysics,
+                            atmospheric sciences and aeronomy, planetary and geosciences, Earth sciences, Solar System
+                            studies and theoretical physics.</p>
+                        <p>It also manages the Udaipur Solar Observatory and Mount Abu InfraRed Observatory. The PRL is
+                            located in Ahmedabad.</p>
+                        <p>The Physical Research Laboratory was founded on 11 November 1947 by Dr. Vikram Sarabhai. The
+                            laboratory had a modest beginning at his residence, with research on cosmic rays.</p>
+                        <p>PRL is involved in research, related to five major fields of science. PRL is also
+                            instrumental in the PLANEX planetary science and exploration programme.</p>
+                        <p>In June 2018, PRL scientists discovered exoplanet EPIC 211945201b or K2-236b, located 600
+                            light years away from the Earth.</p>
+                        <p><a href="https://en.wikipedia.org/wiki/Physical_Research_Laboratory">Read More...</a></p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1" style="background-image: url(./Images/NARL.jpg);">
+            </div>
+            <div class="box2">
+                <ul>
+                    <h5>
+                        <li class="heading">National Atmospheric Research Laboratory</li>
+                    </h5>
+                    <li>
+                        <p style="text-align: justify;">
+                        <p>The National Atmospheric Research Laboratory(NARL) is an autonomous Research Institute funded
+                            by the Department of Space of the Government of India.</p>
+                        <p>NARL is engaged in fundamental and applied research in the field of Atmospheric Sciences.</p>
+                        <p>The research institute was started in 1992 as National Mesosphere-Stratosphere-Troposphere
+                            (MST) Radar Facility (NMRF).</p>
+                        <p>Over the years many other facilities such as Mie/Rayleigh Lidar, Lower atmospheric wind
+                            profiler, optical rain gauge, disdrometer, automated weather stations etc. were added. </p>
+                        <p>The NMRF was then expanded into a research institute and renamed as National Atmospheric
+                            Research Laboratory on 22 September 2005.</p>
+                        <p>The current director is Mr. A.K. Patra</p>
+                        <p><a href="https://en.wikipedia.org/wiki/National_Atmospheric_Research_Laboratory">Read
+                                More....</a></p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1" style="background-image:url(./Images/SAC.jpeg);">
+            </div>
+            <div class="box2">
+                <ul>
+                    <h5>
+                        <li class="heading">Space Applications Centre</li>
+                    </h5>
+                    <li>
+                        <p style="text-align: justify;">
+                        <p>The Space Applications Centre (SAC) is an institution of research in Ahmedabad under the
+                            aegis of the Indian Space Research Organisation (ISRO).</p>
+                        <p>It is one of the major centres of ISRO that is engaged in the research, development and
+                            demonstration of applications of space technology in the field of telecommunications, remote
+                            sensing, meteorology and satellite navigation (Sat Nav).</p>
+                        <p>This includes research and development of on-board systems, ground systems and end user
+                            equipment hardware and software. SAC has three campuses, two of which are located at
+                            Ahmedabad and one at Delhi.</p>
+                        <p>SAC provides its infrastructure to conduct training courses to the students of the Center for
+                            Space Science and Technology Education in Asia and The Pacific (CSSTEAP). It was founded by
+                            Dr. Vikram Sarabhai.</p>
+                        <p>On 19 March 2021, SAC in a major breakthrough demonstrated free space quantum communication
+                            technology at a distance of 300 meters between two buildings through live video conferencing
+                            as part of Quantum Experiments using Satellite Technology (QuEST) project.</p>
+                        <p>The primary objective is to successfully perform satellite based quantum communication
+                            between two ISRO ground station.</p>
+                        <p><a href="https://en.wikipedia.org/wiki/Space_Applications_Centre">Read more...</a></p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1" style="background-image: url(./Images/nace.jpeg);">
+            </div>
+            <div class="box2">
+                <ul>
+                    <h5>
+                        <li class="heading">North-Eastern Space Applications Centre</li>
+                    </h5>
+                    <li>
+                        <p style="text-align: justify;">
+                        <p>North-Eastern Space Applications Centre is a regional space centre established in September,
+                            2000 by joint initiative of Department of Space, Government of India and North Eastern
+                            Council</p>
+                        <p>to expedite the usage of remote sensing technology to discover natural minerals uncovered in
+                            the North-Eastern states of India and to promote overall growth of North Eastern states of
+                            India using space science and technology.</p>
+                        <p>North-Eastern Space Applications Centre was set up with a joint initiative of Department of
+                            Space and North Eastern Council in September, 2000 at Shillong in Meghalaya, India.</p>
+                        <p>The centre has been declared a protected area by the state government.</p>
+                        <p>The centre presently focuses on Remote sensing and Geographic information systems, a
+                            satellite communication programme and space science research programmes</p>
+                        <p><a href="https://en.wikipedia.org/wiki/North-Eastern_Space_Applications_Centre">Read
+                                More...</a></p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1" style="background-image: url(./Images/satishdhwan.webp);">
+            </div>
+            <div class="box2">
+                <ul>
+                    <h5>
+                        <li class="heading">Satish Dhawan Space Centre</li>
+                    </h5>
+                    <li>
+                        <p style="text-align: justify;">
+                        <p>Satish Dhawan Space Centre - SDSC (formerly Sriharikota Range - SHAR),[1] located in
+                            Sriharikota, Tirupati district of Andhra Pradesh, is the primary spaceport of the Indian
+                            Space Research Organisation (ISRO).</p>
+                        <p>Sriharikota island was chosen in 1969 for a satellite launching station. The centre became
+                            operational in 1971 when an RH-125 sounding rocket was launched.</p>
+                        <p>The first attempted launch of an orbital satellite, Rohini 1A aboard a Satellite Launch
+                            Vehicle, took place on 10 August 1979, but due to a failure in thrust vectoring of the
+                            rocket's second stage, the satellite's orbit decayed on 19 August 1979.</p>
+                        <p>SHAR was named as 'Satish Dhawan Space Centre SHAR' (SDSC), on 5 September 2002, in memory of
+                            Satish Dhawan, former chairman of the ISRO.</p>
+                        <p>The SHAR facility now consists of two launch pads, with the second built in 2005. The second
+                            launch pad was used for launches beginning in 2005 and is a universal launch pad,
+                            accommodating all of the launch vehicles used by ISRO.</p>
+                        <p>The two launch pads will allow multiple launches in a single year, which was not possible
+                            earlier. India's lunar orbiter Chandrayaan-1 launched from the centre at 6:22 AM IST on 22
+                            October 2008. India's first Mars orbiter Mangalyaan was launched from the centre on 5
+                            November 2013, which was successfully placed into Mars orbit on 24 September 2014.</p>
+                        <p><a href="https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre">Read More....</a></p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="au" >
+            <div class="aubox"><audio controls="controls" src="./Jana-Gana-Mana---National-Anthem(musicdownload.cc).mp3"></audio></div>
+        </div>
+<!--  parent div ending here  -->
+    </div>
+<!-- footer starts here  -->
+    <footer class="footer1">
+        Dedicated to the Indian Space Research
+    </footer>
+<!-- footer ends here  -->
+</body>
+<!-- body end here -->
+</html>
